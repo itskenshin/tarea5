@@ -1,0 +1,47 @@
+name: marcoapp
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  ionicons: ^0.2.2
+  video_player: ^2.6.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+
+    - lib/assets/images/videoplayback.mp4
+    - lib/assets/images/cien.mp4
+    - lib/assets/images/mongol.mp4
+    - lib/assets/images/Perfil3.jpg
+    
+
+  fonts:
+    - family: Manrope
+      fonts:
+        - asset: lib/assets/fonts/Manrope/Manrope-ExtraLight.ttf
+          weight: 200
+        - asset: lib/assets/fonts/Manrope/Manrope-Light.ttf
+          weight: 300
+        - asset: lib/assets/fonts/Manrope/Manrope-Medium.ttf
+          weight: 400
+        - asset: lib/assets/fonts/Manrope/Manrope-Regular.ttf
+          weight: 500
+        - asset: lib/assets/fonts/Manrope/Manrope-Bold.ttf
+          weight: 600
+        - asset: lib/assets/fonts/Manrope/Manrope-SemiBold.ttf
+          weight: 700
+        - asset: lib/assets/fonts/Manrope/Manrope-ExtraBold.ttf
+          weight: 800
+      
